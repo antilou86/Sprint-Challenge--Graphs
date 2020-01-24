@@ -143,7 +143,7 @@ while len(to_visit) > 0:
             to_visit.append(target)
             #flip that boolean
             switch = True
-            #track number of  we'll need to return
+            #track number of steps we'll need in order to return to unvisited room
             times += 1
 
         #if there is a room that IS in paths (found a loop)
